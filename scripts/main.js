@@ -11,7 +11,7 @@ var multiplesThreeOrFive = function() {
     return total + num;
   };
 
-  document.getElementById("prob1-result").innerHTML = ("Result: " + numbers.reduce(getSum));
+  document.getElementById("prob1-result").innerHTML = ("Result:   " + numbers.reduce(getSum));
 };
 
 var fibonacciSequenceFunc = function() {
@@ -39,5 +39,5 @@ var fibonacciSequenceFunc = function() {
     return total + num;
   };
 
-  document.getElementById("prob2-result").innerHTML = ("Result: " + fibEven.reduce(getSum));
+  document.getElementById("prob2-result").innerHTML = ("Result:   " + fibEven.reduce(getSum));
 };

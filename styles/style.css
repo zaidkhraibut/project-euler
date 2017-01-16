@@ -27,3 +27,12 @@
   right: 0;
   margin-right: 200px;
 }
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+#title {
+  margin-left: 200px;
+  font-family: 'Quicksand', sans-serif;
+}
