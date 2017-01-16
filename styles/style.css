@@ -4,14 +4,15 @@
   width: 400px;
   height: auto;
   border: 0.5px black solid;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 10px;
+  padding-top: 0px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background: white;
 }
 
 .buttons {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .problems:hover {
@@ -19,7 +20,7 @@
 }
 
 #prob1 {
-  bottom: 65px;
+  bottom: 110px;
 }
 
 #prob2 {
@@ -61,7 +62,7 @@ li {
 
 form > input {
   height: 15px;
-  width: 100px;
+  width: 115px;
   padding: 5px;
   border-radius: 2px;
   border: 1px solid rgb(238, 238, 238);
@@ -71,4 +72,5 @@ form > input {
 #content {
   padding-left: 200px;
   min-width: 900px;
+  margin-top: 30px;
 }
