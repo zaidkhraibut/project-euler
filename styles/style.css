@@ -6,6 +6,7 @@
   border-radius: 3px;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: white;
 }
 
 .buttons {
@@ -30,9 +31,39 @@
 
 html {
   font-family: 'Nunito', sans-serif;
+  min-width: 900px;
 }
 
 #title {
   margin-left: 200px;
   font-family: 'Quicksand', sans-serif;
+}
+
+#footer {
+  border-top: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  color: #666669;
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 10px;
+  min-width: 900px;
+}
+
+li {
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+}
+
+form > input {
+  height: 15px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid rgb(238, 238, 238);
+  font: 14px 'Nunito', sans-serif;
 }
