@@ -1,0 +1,29 @@
+.problems {
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  border: 0.5px black solid;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.problems:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#prob1 {
+  position: absolute;
+  left: 0;
+  margin-left: 200px;
+}
+
+#prob2 {
+  position: absolute;
+  right: 0;
+  margin-right: 200px;
+}

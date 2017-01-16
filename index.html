@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Euler</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+  </head>
+  <body>
+    <h1>Project Euler Solutions</h1>
+    <h4>Project Euler is a series of challenging mathematical
+      problems that require computer and programming skills to solve</h4>
+    <div class="problems" id="prob1">
+      <h3>Problem 1</h3>
+      <p>Find the sum of all the multiples of 3 or 5 below any given number</br>
+        For example: The multiples of 3 and 5 below the value <em>10</em>, would be
+        3, 5, 6 and 9. Their sum is 23.</br>
+        Enter any number:</p>
+        <form>
+          <input name="input-prob1" type="text" id="3or5input">
+        </form>
+        <input class="buttons" type="button" value="Calculate" onclick="multiplesThreeOrFive();">
+        <h5 id="prob1-result">Result:</h5>
+    </div>
+    <div class="problems" id="prob2">
+      <h3>Problem 2</h3>
+      <p>Find the sum of the even-valued terms in the Fibonacci sequence below any given number.</br>
+          For example, the first 10 terms of the Fibonacci sequence are </br>
+          <em>1, 2, 3, 5, 8, 13, 21, 34, 55, 89</em></br>
+           If given the value 55, we would calculate 2 + 8 + 34. The sum would be 44.</p>
+        <form>
+          <input name="input-prob2" type="text" id="fib-seq-input">
+        </form>
+        <input class="buttons" type="button" value="Calculate" onclick="fibonacciSequenceFunc();">
+        <h5 id="prob2-result">Result:</h5>
+    </div>
+  </body>
+  <script src="scripts/main.js"></script>
+<html>
