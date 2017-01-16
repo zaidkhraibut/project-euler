@@ -1,5 +1,6 @@
 .problems {
   display: inline-block;
+  position: relative;
   width: 400px;
   height: auto;
   border: 0.5px black solid;
@@ -18,15 +19,11 @@
 }
 
 #prob1 {
-  position: absolute;
-  left: 0;
-  margin-left: 200px;
+  bottom: 65px;
 }
 
 #prob2 {
-  position: absolute;
-  right: 0;
-  margin-right: 200px;
+  margin-left: 15px;
 }
 
 html {
@@ -35,7 +32,10 @@ html {
 }
 
 #title {
+  width: 100%;
+  height: auto;
   margin-left: 200px;
+  margin-right: 200px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -66,4 +66,9 @@ form > input {
   border-radius: 2px;
   border: 1px solid rgb(238, 238, 238);
   font: 14px 'Nunito', sans-serif;
+}
+
+#content {
+  padding-left: 200px;
+  min-width: 900px;
 }
